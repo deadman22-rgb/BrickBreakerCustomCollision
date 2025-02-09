@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BrickController : MonoBehaviour
 {
-    public GameObject breakEffectPrefab; // Assign in Inspector
-    public AudioClip breakSound; // Assign in Inspector
+    public GameObject breakEffectPrefab; 
+    public AudioClip breakSound; 
     private AudioSource audioSource;
     private int health = 1;
     private void Start()
