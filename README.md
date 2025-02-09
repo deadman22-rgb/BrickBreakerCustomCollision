@@ -1,6 +1,6 @@
 # Brick Breaker 
 
-![Game Demo](assets/GamePlayGIF.gif)
+![Game Demo](Assets/GamePlayGIF.gif)
 
 
 This repository contains a Brick Breaker game built in Unity. The core focus is on manually handling collisions and movement without using Unity's built-in physics system.
