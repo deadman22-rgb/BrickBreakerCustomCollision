@@ -274,18 +274,23 @@ public class BallController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isGamePaused)
-            {
-                pauseGameObject.SetActive(false);
-                Time.timeScale = 1f;  // Resume the game
-            }
-            else
-            {
-                pauseGameObject.SetActive(true);
-                Time.timeScale = 0f;  // Pause the game
-            }
-            isGamePaused = !isGamePaused;  // Toggle the game state
+            PauseGameMethod();
         }
+    }
+
+    public void PauseGameMethod()
+    {
+        if (isGamePaused)
+        {
+            pauseGameObject.SetActive(false);
+            Time.timeScale = 1f;  // Resume the game
+        }
+        else
+        {
+            pauseGameObject.SetActive(true);
+            Time.timeScale = 0f;  // Pause the game
+        }
+        isGamePaused = !isGamePaused;  // Toggle the game state
     }
 }
 
