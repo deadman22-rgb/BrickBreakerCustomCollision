@@ -40,10 +40,11 @@ Ensures rows and columns are centered properly.
 We manually define brick boundaries to detect collisions:
 
 
-`` float brickLeft = brick.transform.position.x - 0.25f;
-float brickRight = brick.transform.position.x + 0.25f;
-float brickTop = brick.transform.position.y + 0.15f;
-float brickBottom = brick.transform.position.y - 0.15f; `` 
+`` float brickLeft = brick.transform.position.x - 0.25f; ``
+`` float brickRight = brick.transform.position.x + 0.25f; ``
+`` float brickTop = brick.transform.position.y + 0.15f; `` 
+`` float brickBottom = brick.transform.position.y - 0.15f; `` 
+
 The offset values (0.25, 0.15) represent the brick's half-width and half-height.
 This prevents collision detection from being too strict at the exact center.
 
