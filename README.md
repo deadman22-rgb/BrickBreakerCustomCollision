@@ -60,10 +60,15 @@ A clean UI and stylized game feel
 # Paddle Controller 
 
 the Core Functions that is handling our paddle controller contains the :
+
 Start(): Gets paddle width using SpriteRenderer.bounds.extents.x.
+
 HandleKeyboardInput(): Moves the paddle when arrow keys or A/D keys are pressed.
+
 HandleMouseInput(): Moves the paddle based on the mouse position while holding the left button.
+
 HandleTouchInput(): Detects touch input, allows dragging when touched, and updates position.
+
 MovePaddle(float targetX): Moves the paddle while ensuring it stays within screen limits.
 
 # Ball Controller / Custom Collision Handling 
