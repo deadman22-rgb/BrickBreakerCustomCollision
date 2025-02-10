@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using UnityEditor.SearchService;
+// using UnityEditor.SearchService; commenting it out for testing purposes 
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
