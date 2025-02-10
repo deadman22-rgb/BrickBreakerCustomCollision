@@ -2,14 +2,14 @@
 
 public class BrickColorAssigner : MonoBehaviour
 {
-    public Color[] colorPalette;  // Array to hold colors for the palette
+    public Color[] colorPalette;  
 
     void Start()
     {
         // Check if colorPalette is populated
         if (colorPalette.Length == 0)
         {
-            Debug.LogError("❌ No colors assigned in the colorPalette!");
+            Debug.LogError("No colors assigned in the colorPalette!");
             return;
         }
 
@@ -30,7 +30,7 @@ public class BrickColorAssigner : MonoBehaviour
         }
         else
         {
-            Debug.LogError("❌ Brick does not have a SpriteRenderer component!");
+            Debug.LogError("Brick does not have a SpriteRenderer component!");
         }
     }
 
